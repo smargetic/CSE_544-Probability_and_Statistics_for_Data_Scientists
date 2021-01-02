@@ -1,0 +1,14 @@
+Assume the daily deaths are Poisson distributed with parameter lambda. 
+
+Assume an Exponential prior (with mean beta) on lambda. 
+To find beta for the prior, equate the mean of the Exponential prior to that of the Poisson lambda_MME. 
+
+That is, find the MME of lambda using the first week’s data, 
+and equate this lambda to the mean of Exp(1/beta) to find beta for the prior. 
+Use first week’s data to obtain the posterior for lambda via Bayesian inference. 
+
+Now, use second week’s data to obtain the new posterior, using prior as posterior after week 1. 
+
+Repeat till the end of week 4. Plot all posterior distributions on one graph. 
+
+Report the MAP for all posteriors.
